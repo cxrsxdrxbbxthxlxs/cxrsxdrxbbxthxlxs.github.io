@@ -235,31 +235,31 @@ a.home {
 
 
   a.lienmenu {
-    color: #283C50;
+    color: #2D3C4B;
     background-color: transparent;
     text-decoration: none;
     }
     a.lienmenu:hover {
     color: #000000;
-    background-color: #E60000;
+    background-color: #B40000;
     }
     a.lienmenu:active{
     color: #000000;
-    background-color: #000000;
+    background-color: #B40000;
    }
 
   a.home {
-    color: #506478;
+    color: #505F6E;
     background-color: transparent;
     text-decoration: none;
     }
     a.home:hover {
     color: #000000;
-    background-color: #E60000;
+    background-color: #B40000;
     }
     a.home:active{
     color: #000000;
-    background-color: #000000;
+    background-color: #B40000;
    }
 
 
