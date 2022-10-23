@@ -181,8 +181,8 @@ div#texte {
 
 
   a {
-   color: #141719;
-   background-color: #141719;
+   color: #0F1419;
+   background-color: #0F1419;
    text-decoration: none;
    }
    a:hover {
@@ -285,7 +285,7 @@ div#texte {
 	 font-family: "monoclatureregular", courier, monospace;
 	 font-weight: bold;
 	 font-size: 100%;
-	 color: #A00000;
+	 color: #780000;
 	 line-height: 125%;
 	 text-align: left;
 	 text-transform: uppercase;
@@ -293,7 +293,7 @@ div#texte {
 
  .filet {
    font-family: "monoclatureregular", courier, monospace;
-   color:#640000;
+   color:#500000;
  }
 
  .info {
