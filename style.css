@@ -1,0 +1,322 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --menu-speed: 0.5s;
+}
+
+
+
+
+body {
+  background-color: #000000;
+  background-image: url('background04.gif');
+  background-size: cover;
+}
+
+
+
+
+@font-face {
+    font-family: "monoclatureregular";
+    src: url('monoclature-webfont.woff') format('woff'),
+         url('monoclature-webfont.ttf') format('truetype'),
+		     url('monoclature-webfont.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+a {
+ color: #050A14;
+ background-color: #050A14;
+ text-decoration: none;
+ }
+ a:hover {
+ color: #000000;
+ background-color: #E60000;
+ }
+ a:active{
+ color: #000000;
+ background-color: #000000;
+}
+
+a.lientitre {
+ color: #141E28;
+ background-color: transparent;
+ text-decoration: none;
+ }
+ a.lientitre:hover {
+ color: #780000;
+ background-color: #transparent;
+ }
+ a.lientitre:active{
+ color: #000000;
+ background-color: transparent;
+}
+
+a.info {
+ color: #283C50;
+ background-color: transparent;
+ text-decoration: none;
+ }
+ a.info:hover {
+ color: #000000;
+ background-color: #E60000;
+ }
+ a.info:active{
+ color: #000000;
+ background-color: #000000;
+}
+
+
+
+
+
+
+
+
+main{
+  margin:auto;
+  max-width:625px;
+  padding:2%;
+  position: relative;
+}
+
+
+
+
+div#titre {
+  font-family: arial;
+  font-weight: normal;
+  font-size: 750%;
+  color: #141E28;
+  line-height: 60%;
+  text-transform: uppercase;
+  padding-left: 16%;
+  height: 90vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div#texte {
+  font-family: "monoclatureregular", courier, monospace;
+  font-weight: bold;
+  font-size: 120%;
+  color: #283C50;
+  line-height: 125%;
+  text-align: left;
+  position: absolute;
+  padding-bottom: 10%;
+}
+
+
+
+
+.sous-titres {
+	font-family: "monoclatureregular", courier, monospace;
+	font-weight: bold;
+	font-size: 100%;
+	color: #E60000;
+	line-height: 125%;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.filet {
+	font-family: "monoclatureregular", courier, monospace;
+	color:#640000;
+}
+
+.info {
+  font-family: "monoclatureregular", courier, monospace;
+  font-weight: bold;
+  font-size: 100%;
+  color: #283C50;
+  line-height: 125%;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.italique {
+  font-style: italic;
+}
+
+.exposant {
+	font-size: 62.5%;
+	line-height: 0%;
+	vertical-align: super;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE */
+
+@media all and (orientation: portrait) {
+
+
+
+
+  a {
+   color: #050A14;
+   background-color: #050A14;
+   text-decoration: none;
+   }
+   a:hover {
+   color: #000000;
+   background-color: #E60000;
+   }
+   a:active{
+   color: #000000;
+   background-color: #000000;
+  }
+
+  a.lientitre {
+   color: #141E28;
+   background-color: transparent;
+   text-decoration: none;
+   }
+   a.lientitre:hover {
+   color: #780000;
+   background-color: transparent;
+   }
+   a.lientitre:active{
+   color: #000000;
+   background-color: transparent;
+  }
+
+  a.info {
+   color: #283C50;
+   background-color: transparent;
+   text-decoration: none;
+   }
+   a.info:hover {
+   color: #000000;
+   background-color: #E60000;
+   }
+   a.info:active{
+   color: #000000;
+   background-color: #000000;
+  }
+
+
+
+
+  main{
+   margin: auto;
+   max-width:98vw;
+   padding:2%;
+   position: relative;
+  }
+
+
+
+
+  div#titre {
+   font-family: arial;
+   font-weight: normal;
+   font-size: 1068%;
+   color: #141E28;
+   line-height: 60%;
+   text-transform: uppercase;
+   padding-left: 3%;
+   height: 100vh; /* à mettre en 100vh si je veux le titre en pleine page */ /* 70vh pour version titre + texte en dessous */
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+
+  div#texte {
+   font-family: "monoclatureregular", courier, monospace;
+   font-weight: bold;
+   font-size: 195%;
+   color: #283C50;
+   line-height: 125%;
+   text-align: left;
+   position: absolute;
+   top: 95vh; /* à mettre en 95vh si je veux le titre en pleine page */ /* 55vh pour version titre + texte en dessous */
+   padding-bottom: 5%;
+  }
+
+
+
+
+  /* décaler les repères de catégories à cause du menu/header */
+
+   div#creepypastas { padding-top: 200px; }
+   div#scp { padding-top: 200px; }
+   div#scplist { padding-top: 200px; }
+   div#backrooms { padding-top: 200px; }
+   div#analoghorror { padding-top: 200px; }
+   div#argstories { padding-top: 200px; }
+   div#arggames { padding-top: 200px; }
+   div#steganography { padding-top: 200px; }
+   div#internetmysteries { padding-top: 200px; }
+   div#divers { padding-top: 200px; }
+
+
+
+
+ .sous-titres {
+	 font-family: "monoclatureregular", courier, monospace;
+	 font-weight: bold;
+	 font-size: 100%;
+	 color: #E60000;
+	 line-height: 125%;
+	 text-align: left;
+	 text-transform: uppercase;
+ }
+
+ .filet {
+   font-family: "monoclatureregular", courier, monospace;
+   color:#640000;
+ }
+
+ .info {
+   font-family: "monoclatureregular", courier, monospace;
+   font-weight: bold;
+   font-size: 100%;
+   color: #283C50;
+   line-height: 125%;
+   text-align: left;
+   text-transform: uppercase;
+ }
+
+ .italique {
+   font-style: italic;
+ }
+
+ .exposant {
+   font-size: 62.5%;
+	 line-height: 0%;
+	 vertical-align: super;
+ }
+
+
+
+
+}
