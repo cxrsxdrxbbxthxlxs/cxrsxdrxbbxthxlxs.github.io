@@ -209,7 +209,7 @@ div#texte {
   }
 
   a.info {
-   color: #2D3C4B;
+   color: #1E2D3C;
    background-color: transparent;
    text-decoration: none;
    }
@@ -300,7 +300,7 @@ div#texte {
    font-family: "monoclatureregular", courier, monospace;
    font-weight: bold;
    font-size: 100%;
-   color: #2D3C4B;
+   color: #1E2D3C;
    line-height: 125%;
    text-align: left;
    text-transform: uppercase;
