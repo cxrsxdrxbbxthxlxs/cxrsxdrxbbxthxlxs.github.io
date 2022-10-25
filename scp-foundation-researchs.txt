@@ -24,7 +24,7 @@ Object Class: Esoteric
 
 Procedures / Scenarios :
 Procedure Montauk
-Scenario ZK
+Scenario ZK / ZK-Class Universe Reset
 
 ----------
 
