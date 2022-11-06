@@ -54,7 +54,7 @@ function pic() {
 
 
   $('body').css({
-      'background' : 'url('+ bgm[Math.floor(Math.random() * bgm.length)] + ') no-repeat',
+      'background':'url(' + bgm[Math.floor(Math.random() * bgm.length)] + ')',
   });
 }
 
