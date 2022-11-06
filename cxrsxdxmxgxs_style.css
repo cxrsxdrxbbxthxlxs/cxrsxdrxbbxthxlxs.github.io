@@ -1,1 +1,14 @@
+body{
+    background-color: #000000;
+    background-repeat: repeat;
+    background-size: contain;
+}
 
+
+
+div {
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
