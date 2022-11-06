@@ -54,7 +54,7 @@ function pic() {
 
 
   $('body').css({
-      'background' : 'url('+ bgm[Math.floor(Math.random() * bgm.length)] + ') repeat center center fixed',
+      'background' : 'url('+ bgm[Math.floor(Math.random() * bgm.length)] + ') repeat',
       '-webkit-background-size' : 'contain',
       '-moz-background-size' : 'contain',
       '-o-background-size' : 'contain',
