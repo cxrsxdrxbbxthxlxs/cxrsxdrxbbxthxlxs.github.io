@@ -55,6 +55,11 @@ function pic() {
 
   $('body').css({
       'background':'url(' + bgm[Math.floor(Math.random() * bgm.length)] + ')',
+      'background-repeat': 'repeat', '-webkit-background-repeat' : 'repeat', '-moz-background-repeat' : 'repeat', '-o-background-repeat' : 'repeat',
+      'background-position': 'center center', '-webkit-background-position' : 'center center',
+                             '-moz-background-position' : 'center center', '-o-background-position' : 'center center',
+      'background-attachment': 'fixed', '-webkit-background-attachment' : 'fixed', '-moz-background-attachment' : 'fixed', '-o-background-attachment' : 'fixed',
+      'background-size' : 'contain', '-webkit-background-size' : 'contain', '-moz-background-size' : 'contain', '-o-background-size' : 'contain',
   });
 }
 
