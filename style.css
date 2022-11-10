@@ -138,6 +138,11 @@ div#texte {
 	color:#640000;
 }
 
+br2 {
+   display: block;
+   margin: 1% 0;
+}
+
 .info {
   font-family: "monoclatureregular", courier, monospace;
   font-weight: bold;
@@ -276,8 +281,11 @@ div#texte {
    div#arggames { padding-top: 200px; }
    div#steganography { padding-top: 200px; }
    div#internetmysteries { padding-top: 200px; }
+   div#reality { padding-top: 200px; }
+   div#cults { padding-top: 200px; }
+   div#truecrime { padding-top: 200px; }
    div#lostmedias { padding-top: 200px; }
-   div#divers { padding-top: 200px; }
+   div#misc { padding-top: 200px; }
 
 
 
@@ -295,6 +303,11 @@ div#texte {
  .filet {
    font-family: "monoclatureregular", courier, monospace;
    color:#500000;
+ }
+
+ br2 {
+    display: block;
+    margin: 1% 0;
  }
 
  .info {
