@@ -85,9 +85,9 @@ a.info {
 
 
 main{
-  margin:auto;
-  max-width:630px;
-  padding:2%;
+  margin: auto;
+  max-width: 630px;
+  padding: 2%;
   position: relative;
 }
 
@@ -101,7 +101,9 @@ div#titre {
   color: #141E28;
   line-height: 60%;
   text-transform: uppercase;
-  padding-left: 16%;
+  padding-left: 14%; /* à l'origine : 16% */
+  margin-top: -5%; /* à l'origine pas présent */
+  margin-bottom: 5%; /* à l'origine pas présent */
   height: 90vh;
   position: relative;
   display: flex;
@@ -248,6 +250,8 @@ br2 {
    line-height: 60%;
    text-transform: uppercase;
    padding-left: 3%;
+   margin-top: -5%; /* à l'origine pas présent */
+   margin-bottom: 5%; /* à l'origine pas présent */
    height: 100vh; /* à mettre en 100vh si je veux le titre en pleine page */ /* 70vh pour version titre + texte en dessous */
    position: relative;
    display: flex;
