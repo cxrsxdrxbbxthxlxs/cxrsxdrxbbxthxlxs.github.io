@@ -10,33 +10,37 @@
 
 
 
-/* width */
-::-webkit-scrollbar {
-  width: 1vw;
-  background-color: #000000;
-}
+/* change la couleur des textes sélectionnés sur la page web */
+  ::-moz-selection {  color: rgba(0, 0, 0, 1.0); background: rgba(160, 0, 0, 1.0); }
+  ::selection { color: rgba(0, 0, 0, 1.0); background: rgba(160, 0, 0, 1.0); }
 
-/* Track */
-::-webkit-scrollbar-track {
-  background: #000000;
-}
 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #141E28;
-}
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #780000;
-}
 
-.scroller {
-  width: 1vw;
-  height: 100vh;
-  overflow-y: scroll;
-  scrollbar-color: #141E28 #000000;
-}
+/* scrollbar (ascenseur) */
+  /* width */
+  ::-webkit-scrollbar {
+    width: 1vw;
+    background-color: #000000;
+  }
+  /* Track */
+  ::-webkit-scrollbar-corner,
+  ::-webkit-scrollbar-track {
+    background: #000000;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #141E28;
+  }
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #780000;
+  }
+
+
+
+
+
 
 
 
