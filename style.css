@@ -10,6 +10,38 @@
 
 
 
+/* width */
+::-webkit-scrollbar {
+  width: 1vw;
+  background-color: #000000;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #141E28;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #780000;
+}
+
+.scroller {
+  width: 1vw;
+  height: 100vh;
+  overflow-y: scroll;
+  scrollbar-color: #141E28 #000000;
+}
+
+
+
+
+
 body {
   background-color: #000000;
   background-image: url('background04.gif');
@@ -249,7 +281,7 @@ br2 {
    color: #141E28;
    line-height: 60%;
    text-transform: uppercase;
-   padding-left: 5%;
+   padding-left: 8%;
    margin-top: -10%; /* à l'origine pas présent */
    margin-bottom: 5%; /* à l'origine pas présent */
    height: 100vh; /* à mettre en 100vh si je veux le titre en pleine page */ /* 70vh pour version titre + texte en dessous */
