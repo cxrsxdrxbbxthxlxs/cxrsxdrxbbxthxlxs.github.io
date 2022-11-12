@@ -249,8 +249,8 @@ br2 {
    color: #141E28;
    line-height: 60%;
    text-transform: uppercase;
-   padding-left: 3%;
-   margin-top: -5%; /* à l'origine pas présent */
+   padding-left: 5%;
+   margin-top: -10%; /* à l'origine pas présent */
    margin-bottom: 5%; /* à l'origine pas présent */
    height: 100vh; /* à mettre en 100vh si je veux le titre en pleine page */ /* 70vh pour version titre + texte en dessous */
    position: relative;
