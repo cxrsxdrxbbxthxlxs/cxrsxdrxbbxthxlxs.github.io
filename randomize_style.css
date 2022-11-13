@@ -1,0 +1,209 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --menu-speed: 0.5s;
+}
+
+
+
+
+/* change la couleur des textes sélectionnés sur la page web */
+  ::-moz-selection {  color: rgba(0, 0, 0, 1.0); background: rgba(160, 0, 0, 1.0); }
+  ::selection { color: rgba(0, 0, 0, 1.0); background: rgba(160, 0, 0, 1.0); }
+
+
+
+
+/* scrollbar (ascenseur) */
+  /* width */
+  ::-webkit-scrollbar {
+    width: 1vw;
+    background-color: #000000;
+  }
+  /* Track */
+  ::-webkit-scrollbar-corner,
+  ::-webkit-scrollbar-track {
+    background: #000000;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #141E28;
+  }
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #780000;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  background-color: #000000;
+  background-image: url('background04.gif');
+  background-size: cover;
+}
+
+
+
+
+@font-face {
+    font-family: "monoclatureregular";
+    src: url('monoclature-webfont.woff') format('woff'),
+         url('monoclature-webfont.ttf') format('truetype'),
+		     url('monoclature-webfont.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+a.lientitre {
+ color: #141E28;
+ background-color: transparent;
+ text-decoration: none;
+ }
+ a.lientitre:hover {
+ color: #000000;
+ background-color: #780000;
+ }
+ a.lientitre:active{
+ color: #000000;
+ background-color: transparent;
+}
+
+
+
+
+main{
+  margin: auto;
+  max-width: 630px;
+  padding: 2%;
+  position: relative;
+}
+
+
+
+
+div#titre {
+  font-family: "monoclatureregular", courier, monospace;
+  font-weight: bold;
+  font-size: 700%;
+  color: #141E28;
+  line-height: 100%;
+  text-transform: uppercase;
+  padding-left: 4%; /* à l'origine : 16% */
+  margin-top: -5%; /* à l'origine pas présent */
+  margin-bottom: 5%; /* à l'origine pas présent */
+  height: 90vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE */
+
+@media all and (orientation: portrait) {
+
+
+
+
+  a.lientitre {
+   color: #141E28;
+   background-color: transparent;
+   text-decoration: none;
+   }
+   a.lientitre:hover {
+   color: #000000;
+   background-color: #780000;
+   }
+   a.lientitre:active{
+   color: #000000;
+   background-color: transparent;
+  }
+
+
+
+
+  main{
+   margin: auto;
+   max-width:98vw;
+   padding:2%;
+   position: relative;
+  }
+
+
+
+
+  div#titre {
+   font-family: "monoclatureregular", courier, monospace;
+   font-weight: normal;
+   font-size: 1000%; /* à l'origine 1068% */
+   color: #141E28;
+   line-height: 100%;
+   text-transform: uppercase;
+   padding-left: 8%;
+   margin-top: -10%; /* à l'origine pas présent */
+   margin-bottom: 5%; /* à l'origine pas présent */
+   height: 100vh; /* à mettre en 100vh si je veux le titre en pleine page */ /* 70vh pour version titre + texte en dessous */
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+
+
+
+
+  /* décaler les repères de catégories à cause du menu/header */
+
+   div#creepypastas { padding-top: 200px; }
+   div#scp { padding-top: 200px; }
+   div#scplist { padding-top: 200px; }
+   div#backrooms { padding-top: 200px; }
+   div#analoghorror { padding-top: 200px; }
+   div#argstories { padding-top: 200px; }
+   div#arggames { padding-top: 200px; }
+   div#steganography { padding-top: 200px; }
+   div#internetmysteries { padding-top: 200px; }
+   div#reality { padding-top: 200px; }
+   div#cults { padding-top: 200px; }
+   div#truecrime { padding-top: 200px; }
+   div#lostmedias { padding-top: 200px; }
+   div#misc { padding-top: 200px; }
+
+
+
+
+}
