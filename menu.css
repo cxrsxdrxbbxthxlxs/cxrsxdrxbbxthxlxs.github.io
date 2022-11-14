@@ -401,7 +401,7 @@ a.home {
     list-style: none;
     text-align: left;
     margin:auto;
-    max-width:75vw;
+    max-width:80vw; /* à l'origine : 75vw */
   }
 
   /*interlignage et marges gauche droite du texte du menu*/
