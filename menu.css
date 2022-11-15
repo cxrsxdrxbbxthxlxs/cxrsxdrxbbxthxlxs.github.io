@@ -25,7 +25,7 @@ a.lienmenu {
  }
 
 a.home {
- color: #14283C;
+ color: #8C0000;
  background-color: transparent;
  text-decoration: none;
  }
@@ -249,7 +249,7 @@ a.home {
    }
 
   a.home {
-    color: #192837;
+    color: #780000;
     background-color: transparent;
     text-decoration: none;
     }
@@ -406,7 +406,7 @@ a.home {
 
   /*interlignage et marges gauche droite du texte du menu*/
   .menu li {
-    padding: 0% 0%;
+    padding: 5% 0%; /* à l'origine : 0% 0% */
   }
   .menu > div a {
     text-decoration: none;
