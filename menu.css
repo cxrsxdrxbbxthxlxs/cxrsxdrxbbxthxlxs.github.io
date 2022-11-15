@@ -406,7 +406,7 @@ a.home {
 
   /*interlignage et marges gauche droite du texte du menu*/
   .menu li {
-    padding: 5% 0%; /* à l'origine : 0% 0% */
+    padding: 1% 0%; /* à l'origine : 0% 0% */
   }
   .menu > div a {
     text-decoration: none;
