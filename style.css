@@ -165,7 +165,7 @@ div#texte {
 	font-family: "monoclatureregular", courier, monospace;
 	font-weight: bold;
 	font-size: 100%;
-	color: #E60000;
+	color: #C80000; /* à l'origine : #E60000 */
 	line-height: 125%;
 	text-align: left;
 	text-transform: uppercase;
