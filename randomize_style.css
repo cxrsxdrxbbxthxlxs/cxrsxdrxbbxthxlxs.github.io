@@ -44,10 +44,6 @@
 
 
 
-
-
-
-
 body {
   background-color: #000000;
   background-image: url('background04.gif');
@@ -73,18 +69,14 @@ body {
 
 
 
-
-
-
-
 a.lientitre {
  color: #141E28;
  background-color: transparent;
  text-decoration: none;
  }
  a.lientitre:hover {
- color: #000000;
- background-color: #780000;
+ color: #780000; /* #000000 pour monoclature */ /* #780000 pour arial cursed */
+ background-color: transparent; /* #780000 pour monoclature */ /* transparent pour arial cursed */
  }
  a.lientitre:active{
  color: #000000;
@@ -94,29 +86,19 @@ a.lientitre {
 
 
 
-main{
-  margin: auto;
-  max-width: 630px;
-  padding: 2%;
-  position: relative;
-}
-
-
-
-
 div#titre {
-  font-family: "monoclatureregular", courier, monospace;
-  font-weight: bold;
-  font-size: 700%;
+  font-family: arial; /* font-family: "monoclatureregular", courier, monospace; */  /* font-family: arial; */
+  font-weight: normal; /* font-weight: bold;*/ /* font-weight: normal; */
+  font-size: 18vh; /* 24vh ou 12vh ou 8vh pour monoclature */ /* 18vh pour arial cursed */
+  line-height: 10vh; /* 24vh ou 12vh ou 8vh pour monoclature */ /* 10vh pour arial cursed */
   color: #141E28;
-  line-height: 100%;
-  text-transform: uppercase;
-  padding-left: 4%; /* à l'origine : 16% */
-  margin-top: -5%; /* à l'origine pas présent */
-  margin-bottom: 5%; /* à l'origine pas présent */
-  height: 90vh;
-  position: relative;
-  display: flex;
+  max-height: 80vh;
+  max-width: 80vw;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -52%);
   justify-content: center;
   align-items: center;
 }
@@ -145,8 +127,8 @@ div#titre {
    text-decoration: none;
    }
    a.lientitre:hover {
-   color: #000000;
-   background-color: #780000;
+   color: #780000; /* #000000 pour monoclature */ /* #780000 pour arial cursed */
+   background-color: transparent; /* #780000 pour monoclature */ /* transparent pour arial cursed */
    }
    a.lientitre:active{
    color: #000000;
@@ -156,29 +138,19 @@ div#titre {
 
 
 
-  main{
-   margin: auto;
-   max-width:98vw;
-   padding:2%;
-   position: relative;
-  }
-
-
-
-
   div#titre {
-   font-family: "monoclatureregular", courier, monospace;
-   font-weight: normal;
-   font-size: 1000%; /* à l'origine 1068% */
+   font-family: arial; /* font-family: "monoclatureregular", courier, monospace; */  /* font-family: arial; */
+   font-weight: normal; /* font-weight: bold;*/ /* font-weight: normal; */
+   font-size: 14vh; /* 34vh ou 18vh ou 12vh pour monoclature */ /* 14vh ou 26vh pour arial cursed */
+   line-height: 8vh; /* 34vh ou 18vh ou 12vh pour monoclature */  /* 8vh ou 15vh pour arial cursed */
    color: #141E28;
-   line-height: 100%;
-   text-transform: uppercase;
-   padding-left: 8%;
-   margin-top: -10%; /* à l'origine pas présent */
-   margin-bottom: 5%; /* à l'origine pas présent */
-   height: 100vh; /* à mettre en 100vh si je veux le titre en pleine page */ /* 70vh pour version titre + texte en dessous */
-   position: relative;
-   display: flex;
+   max-height: 80vh;
+   max-width: 80vw;
+   margin: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -45%);
    justify-content: center;
    align-items: center;
   }
@@ -186,7 +158,11 @@ div#titre {
 
 
 
-  /* décaler les repères de catégories à cause du menu/header */
+
+
+
+
+  /* décaler les repères de catégories à cause du menu/header */  /* inutile pour cette page ? */
 
    div#creepypastas { padding-top: 200px; }
    div#scp { padding-top: 200px; }
