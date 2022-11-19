@@ -141,8 +141,8 @@ div#titre {
   div#titre {
    font-family: arial; /* font-family: "monoclatureregular", courier, monospace; */  /* font-family: arial; */
    font-weight: normal; /* font-weight: bold;*/ /* font-weight: normal; */
-   font-size: 14vh; /* 34vh ou 18vh ou 12vh pour monoclature */ /* 14vh ou 26vh pour arial cursed */
-   line-height: 8vh; /* 34vh ou 18vh ou 12vh pour monoclature */  /* 8vh ou 15vh pour arial cursed */
+   font-size: 13vh; /* 34vh ou 18vh ou 12vh pour monoclature */ /* 13vh pour arial cursed */
+   line-height: 7vh; /* 34vh ou 18vh ou 12vh pour monoclature */  /* 7vh pour arial cursed */
    color: #141E28;
    max-height: 80vh;
    max-width: 80vw;
@@ -150,7 +150,7 @@ div#titre {
    position: absolute;
    top: 50%;
    left: 50%;
-   transform: translate(-50%, -45%);
+   transform: translate(-50%, -40%);
    justify-content: center;
    align-items: center;
   }
