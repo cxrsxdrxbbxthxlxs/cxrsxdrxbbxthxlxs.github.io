@@ -11,8 +11,8 @@
 
 
 /* change la couleur des textes sélectionnés sur la page web */
-  ::-moz-selection {  color: rgba(0, 0, 0, 1.0); background: rgba(160, 0, 0, 1.0); }
-  ::selection { color: rgba(0, 0, 0, 1.0); background: rgba(160, 0, 0, 1.0); }
+  ::-moz-selection {  color: rgba(40, 0, 0, 1.0); background: rgba(200, 0, 0, 1.0); }
+  ::selection { color: rgba(40, 0, 0, 1.0); background: rgba(200, 0, 0, 1.0); }
 
 
 
@@ -21,20 +21,20 @@
   /* width */
   ::-webkit-scrollbar {
     width: 1vw;
-    background-color: #000000;
+    background-color: #280000;
   }
   /* Track */
   ::-webkit-scrollbar-corner,
   ::-webkit-scrollbar-track {
-    background: #000000;
+    background: #280000;
   }
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #141E28;
+    background: #280000;
   }
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #780000;
+    background: #C80000;
   }
 
 
@@ -45,9 +45,12 @@
 
 
 body {
-  background-color: #000000;
-  background-image: url('background04.gif');
-  background-size: cover;
+  background-color: #280000;
+  background-image: url('background-rxndxm-01.jpg');
+  background-repeat: repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: contain;
 }
 
 
@@ -70,16 +73,16 @@ body {
 
 
 a.lientitre {
- color: #141E28;
+ color: #8C0000; /* #32373C (fond gris) ou #8C0000 (fond rouge) */
  background-color: transparent;
  text-decoration: none;
  }
  a.lientitre:hover {
- color: #780000; /* #000000 pour monoclature */ /* #780000 pour arial cursed */
- background-color: transparent; /* #780000 pour monoclature */ /* transparent pour arial cursed */
+ color: #C80000; /* #780000 (fond gris) ou #C80000 (fond rouge) */
+ background-color: transparent;
  }
  a.lientitre:active{
- color: #000000;
+ color: #280000; /* #0A0A0A (fond gris) ou #280000 (fond rouge) */
  background-color: transparent;
 }
 
@@ -87,11 +90,11 @@ a.lientitre {
 
 
 div#titre {
-  font-family: arial; /* font-family: "monoclatureregular", courier, monospace; */  /* font-family: arial; */
-  font-weight: normal; /* font-weight: bold;*/ /* font-weight: normal; */
-  font-size: 18vh; /* 24vh ou 12vh ou 8vh pour monoclature */ /* 18vh pour arial cursed */
-  line-height: 10vh; /* 24vh ou 12vh ou 8vh pour monoclature */ /* 10vh pour arial cursed */
-  color: #141E28;
+  font-family: arial;
+  font-weight: normal;
+  font-size: 18vh;
+  line-height: 10vh;
+  color: #8C0000;
   max-height: 80vh;
   max-width: 80vw;
   margin: 0;
@@ -122,16 +125,16 @@ div#titre {
 
 
   a.lientitre {
-   color: #141E28;
+   color: #8C0000; /* #32373C (fond gris) ou #8C0000 (fond rouge) */
    background-color: transparent;
    text-decoration: none;
    }
    a.lientitre:hover {
-   color: #780000; /* #000000 pour monoclature */ /* #780000 pour arial cursed */
-   background-color: transparent; /* #780000 pour monoclature */ /* transparent pour arial cursed */
+   color: #C80000; /* #780000 (fond gris) ou #C80000 (fond rouge) */
+   background-color: transparent;
    }
    a.lientitre:active{
-   color: #000000;
+   color: #C80000; /* #0A0A0A (fond gris) ou #C80000 (fond rouge) ou #280000 (fond rouge) */
    background-color: transparent;
   }
 
@@ -139,11 +142,11 @@ div#titre {
 
 
   div#titre {
-   font-family: arial; /* font-family: "monoclatureregular", courier, monospace; */  /* font-family: arial; */
-   font-weight: normal; /* font-weight: bold;*/ /* font-weight: normal; */
-   font-size: 13vh; /* 34vh ou 18vh ou 12vh pour monoclature */ /* 13vh pour arial cursed */
-   line-height: 7vh; /* 34vh ou 18vh ou 12vh pour monoclature */  /* 7vh pour arial cursed */
-   color: #141E28;
+   font-family: arial;
+   font-weight: normal;
+   font-size: 10vh;
+   line-height: 6vh;
+   color: #8C0000;
    max-height: 80vh;
    max-width: 80vw;
    margin: 0;
@@ -154,32 +157,3 @@ div#titre {
    justify-content: center;
    align-items: center;
   }
-
-
-
-
-
-
-
-
-  /* décaler les repères de catégories à cause du menu/header */  /* inutile pour cette page ? */
-
-   div#creepypastas { padding-top: 200px; }
-   div#scp { padding-top: 200px; }
-   div#scplist { padding-top: 200px; }
-   div#backrooms { padding-top: 200px; }
-   div#analoghorror { padding-top: 200px; }
-   div#argstories { padding-top: 200px; }
-   div#arggames { padding-top: 200px; }
-   div#steganography { padding-top: 200px; }
-   div#internetmysteries { padding-top: 200px; }
-   div#reality { padding-top: 200px; }
-   div#cults { padding-top: 200px; }
-   div#truecrime { padding-top: 200px; }
-   div#lostmedias { padding-top: 200px; }
-   div#misc { padding-top: 200px; }
-
-
-
-
-}
