@@ -695,7 +695,12 @@ function pic() {
     'cxrsxdxmxgxs/cxrsxdxmxgxs_694.jpg',
     'cxrsxdxmxgxs/cxrsxdxmxgxs_695.jpg',
     'cxrsxdxmxgxs/cxrsxdxmxgxs_696.jpg',
-    'cxrsxdxmxgxs/cxrsxdxmxgxs_697.jpg'
+    'cxrsxdxmxgxs/cxrsxdxmxgxs_697.jpg',
+    'cxrsxdxmxgxs/cxrsxdxmxgxs_698.jpg',
+    'cxrsxdxmxgxs/cxrsxdxmxgxs_699.jpg',
+    'cxrsxdxmxgxs/cxrsxdxmxgxs_700.jpg',
+    'cxrsxdxmxgxs/cxrsxdxmxgxs_701.jpg',
+    'cxrsxdxmxgxs/cxrsxdxmxgxs_702.jpg'
   ];
 
 
